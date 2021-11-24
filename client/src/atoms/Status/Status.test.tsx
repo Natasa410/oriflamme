@@ -85,7 +85,7 @@ test("displays status message", async () => {
 
   act(() => {
     render(
-      <Status {...{ ...props, selectedPlayerCard: undefined }} />,
+      <Status {...{ ...props, selectedPlayerCard: null}} />,
       container
     );
   });
