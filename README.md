@@ -1,11 +1,18 @@
-# oriflamme
+# Oriflamme
 
-This is the solo project I wrote whilst on the intensive and brilliant Codeworks Software Engineering Immersive program. I really enjoy modern boardgames and wanted to learn about WebSockets so a game was the obvious choice.
 
-The game in question is Oriflamme by Studio H Games (short video overview [here](https://youtu.be/RWJh259QSEc?t=36)).
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/4533473/145608318-a98b576f-397b-47bc-94e0-8bce39559621.png" />
+
+</p>
+
+Web app based on the board game Oriflamme by Studio H Games.
 
 Players find themselves in the middle of a medieval feud over the French royal crown. The King is dead - long live the King! As heads of influential families, the players strive to come to power with cunning, malice, strength, virtue and infamy. The player with the most Influence after 6 rounds wins the game, and the throne!
 
+You can see a presentation of the project [here](https://www.youtube.com/watch?v=5L3fkxHlPSs). Rules can be found in the resources folder.
 
 # Back end (`/server` directory)
 
@@ -74,7 +81,26 @@ npm install
 ```
 npm start
 ```
+* Open a couple of different browsers and point them to http://localhost:3000. You can also run one or more browsers in incognito mode to try the game with 2+ players.
 
-* Once complete, run the React development server with
 
+
+ # Testing
+ * Unit and integration testing (JEST, react-testing-library) , as well as e2e testing (Cypress), were added to the project to check the robustness of the code, and      to help with development of new features.
+
+# Refactoring
+* The server, and the client, were refactored to TypeScript.
+
+ # Tech Stack
+ 
+ * React
+ * NodeJS / Express server with Socket.io
+ * MongoDB with Mongoose ORM
+
+# Contributors
+
+* [James Foxlee](https://github.com/cortexlock)
+* [Anastasia Papaioannou](https://github.com/Natasa410)
+* [Eloy Robillard](https://github.com/eloyrobillard)
+* [David Longaron](https://github.com/MrDfu)
 
